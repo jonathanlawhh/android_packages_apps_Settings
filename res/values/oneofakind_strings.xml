@@ -100,6 +100,9 @@
     <!-- BitSyko Layers -->
     <string name="bitsyko_layers">Layers</string>
 
+    <!-- Wake Up -->
+    <string name="wakeup_title">Wake Up</string>
+
     <!-- Volume Keys Media Control -->
     <string name="volume_keys_control_media_stream">Media control</string>
     <string name="volume_keys_control_media_stream_summary">Volume keys control media volume rather than notifications</string>

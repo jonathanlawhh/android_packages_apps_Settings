@@ -108,6 +108,17 @@
                 android:targetPackage="com.lovejoy777.rroandlayersmanager"
                 android:targetClass="com.lovejoy777.rroandlayersmanager.menu" />
         </dashboard-tile>
+
+        <!-- Wake Up -->
+        <dashboard-tile
+                android:id="@+id/wakeup_settings"
+                android:icon="@drawable/ic_settings_display_wakeup"
+                android:title="@string/wakeup_title">
+                <intent
+                    android:action="android.intent.action.MAIN"
+                    android:targetPackage="org.pygoscelis.mobile.wakeup"
+                    android:targetClass="org.pygoscelis.mobile.wakeup.WakeGestureSettings" />
+        </dashboard-tile>
     </dashboard-category>
 
     <!-- DEVICE -->
