@@ -59,7 +59,7 @@ import com.android.settings.search.SearchIndexableRaw;
 import com.android.settings.R;
 
 import com.android.settings.R;
-import com.android.settings.chroma.SystemSettingSwitchPreference;
+import com.android.settings.oneofakind.SystemSettingSwitchPreference;
 import java.util.ArrayList;
 import java.util.List;
 

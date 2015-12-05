@@ -89,15 +89,15 @@
 
     <!-- CUSTOMIZATIONS -->
     <dashboard-category
-            android:id="@+id/chroma_section"
-            android:title="@string/header_category_chroma" >
+            android:id="@+id/oneofakind_section"
+            android:title="@string/header_category_oneofakind" >
 
         <!-- ROM TWEAKS -->
         <dashboard-tile
-                android:id="@+id/chroma_settings"
-                android:title="@string/chroma_settings_title"
-                android:fragment="com.android.settings.chroma.ChromaSettings" 
-        		android:icon="@drawable/ic_settings_chroma" />
+                android:id="@+id/oneofakind_settings"
+                android:title="@string/oneofakind_settings_title"
+                android:fragment="com.android.settings.oneofakind.oneofakindSettings" 
+                android:icon="@drawable/ic_settings_oneofakind" />
 
         <dashboard-tile
                 android:id="@+id/bitsyko_layers"

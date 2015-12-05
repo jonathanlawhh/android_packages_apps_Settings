@@ -51,7 +51,7 @@
 	        android:summary="@string/block_on_secure_keyguard_summary"
 	        android:persistent="false" />
 
-    	<com.android.settings.chroma.SystemSettingSwitchPreference
+    	<com.android.settings.oneofakind.SystemSettingSwitchPreference
             android:key="lockscreen_enable_power_menu"
             android:title="@string/lockscreen_enable_power_menu_title"
     	    android:summary="@string/lockscreen_enable_power_menu_summary"
