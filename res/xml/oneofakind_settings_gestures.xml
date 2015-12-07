@@ -65,7 +65,7 @@
                 android:entryValues="@array/recents_clear_all_location_values"
                 android:defaultValue="0"
                 android:dependency="show_clear_all_recents" />
-    <PreferenceCategory>
+    </PreferenceCategory>
 
 	<com.android.settings.oneofakind.SystemSettingSwitchPreference
         android:key="recents_show_search_bar"
