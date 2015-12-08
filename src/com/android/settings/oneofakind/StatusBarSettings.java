@@ -39,7 +39,6 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
 
     private Preference mQSTiles;
     private PreferenceScreen mClockStyle;
-    private PreferenceScreen mLockClock;
     private ListPreference mQuickPulldown;
     private ListPreference mStatusBarBattery;
     private ListPreference mStatusBarBatteryShowPercent;
@@ -61,12 +60,6 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
                     Settings.System.STATUS_BAR_QUICK_QS_PULLDOWN, 1);
             mQuickPulldown.setValue(String.valueOf(statusQuickPulldown));
             updateQuickPulldownSummary(statusQuickPulldown);
-        }
-
-    // mLockClock 
-    	mLockClock = (PreferenceScreen) findPreference(KEY_LOCK_CLOCK);
-        if (!Utils.isPackageInstalled(getActivity(), KEY_LOCK_CLOCK_PACKAGE_NAME)) {
-            prefSet.removePreference(mLockClock);
         }
 
         mQSTiles = findPreference("qs_order");
