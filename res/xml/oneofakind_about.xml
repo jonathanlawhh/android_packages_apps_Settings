@@ -54,10 +54,8 @@
     <Preference
         android:title="mickybart"
        	android:summary="Developer of nAOSP"/>
-    <Preference
-        android:title="Jonathan Law @ KillerDomoZ"
-       	android:summary="My friend"
-        android:action="android.intent.action.VIEW"
-        android:data="https://twitter.com/jonathanlawhh" />
+    <Preference android:title="Jonathan Law @ KillerDomoZ" android:summary="My friend" >
+      <intent android:action="android.intent.action.VIEW" android:data="https://twitter.com/jonathanlawhh"/>
+    </Preference>
     </PreferenceCategory>
     </PreferenceScreen>
