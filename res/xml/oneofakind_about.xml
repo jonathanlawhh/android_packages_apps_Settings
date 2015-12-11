@@ -55,7 +55,7 @@
         android:title="mickybart"
        	android:summary="Developer of nAOSP"/>
     <Preference
-        android:title="Jonathan Law @ KillerDomoZ"
+        android:title="Jonathan Law"
        	android:summary="My friend"
         android:action="android.intent.action.VIEW"
         android:data="https://twitter.com/jonathanlawhh" />
