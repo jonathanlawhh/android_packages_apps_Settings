@@ -36,5 +36,10 @@
         android:fragment="com.android.settings.oneofakind.VolumeRockerSettings"
         android:key="volume_rocker_general_category"
         android:title="@string/volume_rocker_screen_title" />
+
+    <PreferenceScreen
+        android:fragment="com.android.settings.oneofakind.NozomiSettings"
+        android:key="device_specific_general_category"
+        android:title="@string/urom_category" />
 </PreferenceCategory>
 </PreferenceScreen>
